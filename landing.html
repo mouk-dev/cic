@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Calculateur d'Intérêts Composés</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+	</head>
+	<body>
+		<div id="container-landing">
+			<!-- En-tête de page -->
+			<header><!-- Début header -->
+				<a href="../index.html"><img src="../images/cic_logo.jpg" /></a>
+				<h1>Calculateur d'Intérêts Composés-CIC</h1>
+			</header><!-- Fin header -->
+
+			<!-- Corps de page -->
+			<section><!-- Début section -->
+				<p>
+					<marquee>
+						CIC est une abréviation de "Calculateur d'Intérêts Composés". Cette application est une sorte de calculatrice comptable créée uniquement pour la détermination des intérêts composés d'un investissement.
+					</marquee>
+				</p>
+			</section><!-- Fin section -->
+
+			<div id="form"><!-- Début div -->
+				<form name="form" method="POST"><!-- Début form -->
+					<div id="result-container">
+						<p>L'intérêt composé est :&nbsp;&nbsp;&nbsp;&nbsp;<span id="result"></span></p>
+					</div>
+					<div class="champ-container"><!-- Début champ-container -->
+						<label for="p">Capital initial : </label>
+						<input type="number" name="p" id="p" placeholder="Capital initial P en (FCFA)" />
+					</div><!-- Fin champ-container -->
+
+					<div class="champ-container"><!-- Début champ-container -->
+						<label for="r">Taux d'intérêt annuel en (%) : </label>
+						<input type="number" name="r" id="r" placeholder="Taux d'intérêt annuel r en (%)" />
+					</div><!-- Fin champ-container -->
+
+					<div class="champ-container"><!-- Début champ-container -->
+						<label for="t">Durée de l'investissement : </label>
+						<input type="number" name="t" id="t" placeholder="Nombre d'année(s)" />
+					</div><!-- Fin champ-container -->
+
+					<div id="bouton-calculer"><!-- Début bouton-calculer -->
+						<input type="submit" name="calculer" value="CALCULER" id="calculer" onclick="calculerInterets()" />
+						<input type="reset" name="effacer" value="EFFACER" />
+					</div><!-- Fin bouton-calculer -->
+
+				</form><!-- Fin form -->
+
+			</div><!-- Fin div -->
+
+			<!-- Pied de page -->
+			<footer><!-- Début footer -->
+				<p>Copyrigth &copy; 2023 Réaliser par <span>Fambfad_Staff</span></p>
+			</footer><!-- Fin footer -->
+
+		</div>
+
+		<script src="../js/scripts.js"></script>
+	</body>
+</html>

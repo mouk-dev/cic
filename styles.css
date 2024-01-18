@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*------------------------ styles de page index ------------------------*/
+#container-index{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 5.5%;
+}
+
+#container-index header{
+	padding: 10px 5px;
+	background: #900000;
+}
+
+#container-index header h1{
+	color: #ffffff;
+	text-align: center;
+}
+
+#container-index section{
+	height: 400px;
+	padding: 20px;
+	text-align: center;
+	background: #303841;
+}
+
+#container-index section img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 100%;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+#container-index section a{
+	width: 40%;
+	margin: 0 auto;
+	color: #ffffff;
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 20px 10px;
+	background: #22262a;
+	text-decoration: none;
+	border: 3px solid wheat;
+	border-radius: 10px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	transition:0.5s all;
+}
+
+#container-index section a:hover{
+	color: #001122;
+	background: teal;
+	border: 3px solid #001122;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	transition:0.5s all;
+}
+
+#container-index footer{
+	padding: 7px 0px;
+	background: #2e323880;
+}
+
+#container-index footer p{
+	color: #535353;
+	font-size: 18px;
+	text-align: center;
+}
+
+#container-index footer p span{
+	color: #000000ad;
+	font-weight: bold;
+}
+
+/*------------------------ styles de page landing ------------------------*/
+#container-landing{
+	
+}
+
+#container-landing header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 5px;
+	background: #900000;
+}
+
+#container-landing header h1{
+	color: #ffffff;
+	text-align: center;
+	font-family: Bradley Hand ITC;
+}
+
+#container-landing header img{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border-radius: 100%;
+}
+
+#container-landing section{
+	text-align: center;
+	background: #303841;
+}
+
+#container-landing section p{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+#container-landing #form{
+	padding: 72.5px 0px;
+	background: #efefef;
+}
+
+#container-landing #form form{
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #acacac;
+	background: beige;
+}
+
+#container-landing #form form .champ-container{
+	display: flex;
+	margin-top: 25px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#container-landing #form form .champ-container label{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#container-landing #form form .champ-container input{
+	width: 500px;
+	padding: 20px 5px;
+	text-align: center;
+	font-size: 22px;
+	color: #535353;
+	font-weight: bold;
+	font-family: Bradley Hand ITC;
+	border: 1px solid #cccccc;
+}
+
+#container-landing #form form #bouton-calculer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#container-landing #form form #bouton-calculer input{
+	color: #ffffff;
+	margin-top: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 20px 100px;
+	background: teal;
+	border-style: none;
+	border-radius: 10px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	transition:0.5s all;
+}
+
+#container-landing #form form #bouton-calculer input:hover{
+	background: #025858;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	transition:0.5s all;
+}
+
+#container-landing #form form #bouton-calculer input:nth-child(2){
+	color: #ffffff;
+	margin-top: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 20px 100px;
+	background: #bf3636;
+	border-style: none;
+	border-radius: 10px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	transition:0.5s all;
+}
+
+#container-landing #form form #bouton-calculer input:nth-child(2):hover{
+	background: #900000;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	transition:0.5s all;
+}
+
+#container-landing #form form #result-container{
+	width: 99.5%;
+	margin: 0 auto;
+	padding: 10px 10px;
+	border: 2px solid #001122;
+}
+
+#container-landing #form form #result-container p{
+	color: #535353;
+	font-size: 22px;
+	letter-spacing: 5px;
+}
+
+#container-landing #form form #result-container p #result{
+	color: green;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+#container-landing footer{
+	padding: 7px 0px;
+	background: #2e323880;
+}
+
+#container-landing footer p{
+	color: #535353;
+	font-size: 18px;
+	text-align: center;
+}
+
+#container-landing footer p span{
+	color: #000000ad;
+	font-weight: bold;
+}
